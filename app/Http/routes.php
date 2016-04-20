@@ -14,3 +14,4 @@
 Route::get('/', function () {
         return view('welcome', ['name' => 'Fiorella Nalguitas ']);
 });
+Route::get('widrito', 'widrito@index');
